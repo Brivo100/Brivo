@@ -27,8 +27,9 @@
   <script>
     // ✅ আপনার দেওয়া URL + anon key বসানো হলো
     const supabaseUrl = "https://ipasodqtxfgyecfsxmfd.supabase.co";
-    const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlwYXNvZHF0eGZneWVjZnN4bWZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyMjgwMDIsImV4cCI6MjA3MjgwNDAwMn0.TPVgTp_nJKJK9kOu_nLRnxrp54n4hDgh2KipJcZFOV4";
-    const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlwYXNvZHF0eGZneWVjZnN4bWZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyMjgwMDIsImV4cCI6MjA3MjgwNDAwMn0.TPVgTp_nJKJK9kOu_nLRnxrp54n4hDgh2KipJcZFOV4";
+
+const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
     const msgEl = document.getElementById('msg');
 
@@ -134,3 +135,4 @@
   </script>
 </body>
 </html>
+
